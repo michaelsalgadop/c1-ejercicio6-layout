@@ -33,10 +33,6 @@ ul li {
   color: #fff;
   padding: 15px;
   height: var(--altura-cabecera-pie);
-  align-items: center;
-}
-.pie {
-  justify-content: center;
 }
 .cuerpo-principal,
 .sidebar {
@@ -49,13 +45,8 @@ ul li {
 .sidebar {
   background-color: #adacb5;
 }
-.contenido,
-.cabecera,
-.pie {
-  display: flex;
-}
+
 .contenido {
-  flex-wrap: wrap;
   min-height: calc(100vh - var(--altura-cabecera-pie) * 2);
 }
 
